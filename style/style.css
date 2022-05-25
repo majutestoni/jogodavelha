@@ -6,7 +6,9 @@
 
 body{
     background-color: rgba(14, 63, 5, 0.192);
+    text-align: center;
 }
+
 
 input{
     background-color: rgb(44, 110, 47);
@@ -15,6 +17,7 @@ input{
     border: none;
     color: white; 
 }
+    
 
 #jogador{
     display: inline;

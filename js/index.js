@@ -11,7 +11,7 @@ let jogador = '';
 function sortearJogador () {
     if (Math.floor(Math.random() * 2) == 0) {
         jogador = 'O'
-        jogadorVez.innerText = "O";
+        jogadorVez.innerText = 'O';
         jogadorVez.style.color = '#F00';
     } else {
         jogador = 'X';
@@ -24,12 +24,12 @@ sortearJogador();
 function trocarJogador() {
     if (jogador == 'X') {
         jogador = 'O';
-        jogadorVez.innerText = 'O';
+        jogadorVez.innerText = "O";
         jogadorVez.style.color = '#F00';
 
     } else {
         jogador = 'X';
-        jogadorVez.innerText = 'X';
+        jogadorVez.innerText = "X";
         jogadorVez.style.color = '#00F';
     }
 }
@@ -38,7 +38,7 @@ for (let i = 0; i < 9; i++) {
     tabuleiro[i].addEventListener('click', (event) => {
         if (event.target.value == '' && vencedor == '') {
             event.target.value = jogador;
-            event.target.style.color = 'black';
+            event.target.style.color = 'white';
 
             trocarJogador();
             vencedor = vitoria();
