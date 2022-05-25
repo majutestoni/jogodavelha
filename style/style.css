@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+input{
+    background-color: rgb(44, 110, 47);
+    width: 10vh;
+    height: 10vh;
+    border: none;
+}
+
+#jogador{
+    display: inline;
+}
