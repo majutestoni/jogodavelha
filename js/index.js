@@ -6,7 +6,6 @@ const reinicirJogo = document.getElementById('reiniciarJogo');
 const jogadorVez = document.getElementById('jogador');
 let vencedor = '';
 let jogador = '';
-//sortearJogador();
 
 function sortearJogador () {
     if (Math.floor(Math.random() * 2) == 0) {
