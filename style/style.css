@@ -5,8 +5,15 @@
 }
 
 body{
-    background-color: rgba(14, 63, 5, 0.192);
+    margin-top: 10%;
+    background-color: rgba(14, 63, 5, 0.267);
     text-align: center;
+}
+
+.titulo{
+    font-weight: 300px;
+    color: rgb(10, 24, 11);
+    border-color: black;
 }
 
 input{
@@ -16,7 +23,9 @@ input{
     border: none;
     color: white; 
     font-size: 25px;
+    margin: 3px;
 }
+
     
 
 #jogador{
